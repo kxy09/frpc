@@ -25,6 +25,7 @@ else if [ $(uname -m) = "armv7l" ]; then
     export PLATFORM=arm
 fi
 fi
+fi
 
 FILE_NAME=frp_${FRP_VERSION}_linux_${PLATFORM}
 
