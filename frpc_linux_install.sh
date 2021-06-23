@@ -21,6 +21,8 @@ if [ $(uname -m) = "x86_64" ]; then
     export PLATFORM=amd64
 else if [ $(uname -m) = "aarch64" ]; then
     export PLATFORM=arm64
+else if [ $(uname -m) = "armv7l" ]; then
+    export PLATFORM=arm
 fi
 fi
 
