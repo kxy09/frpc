@@ -24,7 +24,5 @@ sudo systemctl restart frpc
 卸载
 ```shell
 wget https://raw.githubusercontent.com/stilleshan/frpc/master/frpc_linux_uninstall.sh && chmod +x frpc_linux_uninstall.sh && ./frpc_linux_uninstall.sh
-# 国内 gitee 镜像
-wget https://gitee.com/stilleshan/frpc/raw/master/frpc_linux_uninstall.sh && chmod +x frpc_linux_uninstall.sh && ./frpc_linux_uninstall.sh
-```
+
 
